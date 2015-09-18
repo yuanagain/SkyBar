@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAE743BF1BABBC2E006F2077 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE743BE1BABBC2E006F2077 /* AppDelegate.swift */; };
+		DAE743C11BABBC2E006F2077 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE743C01BABBC2E006F2077 /* ViewController.swift */; };
+		DAE743C41BABBC2E006F2077 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAE743C21BABBC2E006F2077 /* Main.storyboard */; };
+		DAE743C71BABBC2E006F2077 /* SkyBar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DAE743C51BABBC2E006F2077 /* SkyBar.xcdatamodeld */; };
+		DAE743C91BABBC2E006F2077 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAE743C81BABBC2E006F2077 /* Assets.xcassets */; };
+		DAE743CC1BABBC2E006F2077 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAE743CA1BABBC2E006F2077 /* LaunchScreen.storyboard */; };
+		DAE743D71BABBC2E006F2077 /* SkyBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE743D61BABBC2E006F2077 /* SkyBarTests.swift */; };
+		DAE743E21BABBC2E006F2077 /* SkyBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE743E11BABBC2E006F2077 /* SkyBarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAE743D31BABBC2E006F2077 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAE743B31BABBC2E006F2077 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAE743BA1BABBC2E006F2077;
+			remoteInfo = SkyBar;
+		};
+		DAE743DE1BABBC2E006F2077 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAE743B31BABBC2E006F2077 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAE743BA1BABBC2E006F2077;
+			remoteInfo = SkyBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAE743BB1BABBC2E006F2077 /* SkyBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAE743BE1BABBC2E006F2077 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DAE743C01BABBC2E006F2077 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DAE743C31BABBC2E006F2077 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAE743C61BABBC2E006F2077 /* SkyBar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SkyBar.xcdatamodel; sourceTree = "<group>"; };
+		DAE743C81BABBC2E006F2077 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAE743CB1BABBC2E006F2077 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAE743CD1BABBC2E006F2077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAE743D21BABBC2E006F2077 /* SkyBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkyBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAE743D61BABBC2E006F2077 /* SkyBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyBarTests.swift; sourceTree = "<group>"; };
+		DAE743D81BABBC2E006F2077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAE743DD1BABBC2E006F2077 /* SkyBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkyBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAE743E11BABBC2E006F2077 /* SkyBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyBarUITests.swift; sourceTree = "<group>"; };
+		DAE743E31BABBC2E006F2077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAE743B81BABBC2E006F2077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE743CF1BABBC2E006F2077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE743DA1BABBC2E006F2077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAE743B21BABBC2E006F2077 = {
+			isa = PBXGroup;
+			children = (
+				DAE743BD1BABBC2E006F2077 /* SkyBar */,
+				DAE743D51BABBC2E006F2077 /* SkyBarTests */,
+				DAE743E01BABBC2E006F2077 /* SkyBarUITests */,
+				DAE743BC1BABBC2E006F2077 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAE743BC1BABBC2E006F2077 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAE743BB1BABBC2E006F2077 /* SkyBar.app */,
+				DAE743D21BABBC2E006F2077 /* SkyBarTests.xctest */,
+				DAE743DD1BABBC2E006F2077 /* SkyBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAE743BD1BABBC2E006F2077 /* SkyBar */ = {
+			isa = PBXGroup;
+			children = (
+				DAE743BE1BABBC2E006F2077 /* AppDelegate.swift */,
+				DAE743C01BABBC2E006F2077 /* ViewController.swift */,
+				DAE743C21BABBC2E006F2077 /* Main.storyboard */,
+				DAE743C81BABBC2E006F2077 /* Assets.xcassets */,
+				DAE743CA1BABBC2E006F2077 /* LaunchScreen.storyboard */,
+				DAE743CD1BABBC2E006F2077 /* Info.plist */,
+				DAE743C51BABBC2E006F2077 /* SkyBar.xcdatamodeld */,
+			);
+			path = SkyBar;
+			sourceTree = "<group>";
+		};
+		DAE743D51BABBC2E006F2077 /* SkyBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAE743D61BABBC2E006F2077 /* SkyBarTests.swift */,
+				DAE743D81BABBC2E006F2077 /* Info.plist */,
+			);
+			path = SkyBarTests;
+			sourceTree = "<group>";
+		};
+		DAE743E01BABBC2E006F2077 /* SkyBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAE743E11BABBC2E006F2077 /* SkyBarUITests.swift */,
+				DAE743E31BABBC2E006F2077 /* Info.plist */,
+			);
+			path = SkyBarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAE743BA1BABBC2E006F2077 /* SkyBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAE743E61BABBC2E006F2077 /* Build configuration list for PBXNativeTarget "SkyBar" */;
+			buildPhases = (
+				DAE743B71BABBC2E006F2077 /* Sources */,
+				DAE743B81BABBC2E006F2077 /* Frameworks */,
+				DAE743B91BABBC2E006F2077 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkyBar;
+			productName = SkyBar;
+			productReference = DAE743BB1BABBC2E006F2077 /* SkyBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAE743D11BABBC2E006F2077 /* SkyBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAE743E91BABBC2E006F2077 /* Build configuration list for PBXNativeTarget "SkyBarTests" */;
+			buildPhases = (
+				DAE743CE1BABBC2E006F2077 /* Sources */,
+				DAE743CF1BABBC2E006F2077 /* Frameworks */,
+				DAE743D01BABBC2E006F2077 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAE743D41BABBC2E006F2077 /* PBXTargetDependency */,
+			);
+			name = SkyBarTests;
+			productName = SkyBarTests;
+			productReference = DAE743D21BABBC2E006F2077 /* SkyBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAE743DC1BABBC2E006F2077 /* SkyBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAE743EC1BABBC2E006F2077 /* Build configuration list for PBXNativeTarget "SkyBarUITests" */;
+			buildPhases = (
+				DAE743D91BABBC2E006F2077 /* Sources */,
+				DAE743DA1BABBC2E006F2077 /* Frameworks */,
+				DAE743DB1BABBC2E006F2077 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAE743DF1BABBC2E006F2077 /* PBXTargetDependency */,
+			);
+			name = SkyBarUITests;
+			productName = SkyBarUITests;
+			productReference = DAE743DD1BABBC2E006F2077 /* SkyBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAE743B31BABBC2E006F2077 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = SkyBar;
+				TargetAttributes = {
+					DAE743BA1BABBC2E006F2077 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					DAE743D11BABBC2E006F2077 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = DAE743BA1BABBC2E006F2077;
+					};
+					DAE743DC1BABBC2E006F2077 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = DAE743BA1BABBC2E006F2077;
+					};
+				};
+			};
+			buildConfigurationList = DAE743B61BABBC2E006F2077 /* Build configuration list for PBXProject "SkyBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAE743B21BABBC2E006F2077;
+			productRefGroup = DAE743BC1BABBC2E006F2077 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAE743BA1BABBC2E006F2077 /* SkyBar */,
+				DAE743D11BABBC2E006F2077 /* SkyBarTests */,
+				DAE743DC1BABBC2E006F2077 /* SkyBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAE743B91BABBC2E006F2077 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE743CC1BABBC2E006F2077 /* LaunchScreen.storyboard in Resources */,
+				DAE743C91BABBC2E006F2077 /* Assets.xcassets in Resources */,
+				DAE743C41BABBC2E006F2077 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE743D01BABBC2E006F2077 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE743DB1BABBC2E006F2077 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAE743B71BABBC2E006F2077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE743C11BABBC2E006F2077 /* ViewController.swift in Sources */,
+				DAE743BF1BABBC2E006F2077 /* AppDelegate.swift in Sources */,
+				DAE743C71BABBC2E006F2077 /* SkyBar.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE743CE1BABBC2E006F2077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE743D71BABBC2E006F2077 /* SkyBarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE743D91BABBC2E006F2077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE743E21BABBC2E006F2077 /* SkyBarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAE743D41BABBC2E006F2077 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAE743BA1BABBC2E006F2077 /* SkyBar */;
+			targetProxy = DAE743D31BABBC2E006F2077 /* PBXContainerItemProxy */;
+		};
+		DAE743DF1BABBC2E006F2077 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAE743BA1BABBC2E006F2077 /* SkyBar */;
+			targetProxy = DAE743DE1BABBC2E006F2077 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAE743C21BABBC2E006F2077 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAE743C31BABBC2E006F2077 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAE743CA1BABBC2E006F2077 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAE743CB1BABBC2E006F2077 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAE743E41BABBC2E006F2077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAE743E51BABBC2E006F2077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAE743E71BABBC2E006F2077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SkyBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SkyBar.SkyBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DAE743E81BABBC2E006F2077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SkyBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SkyBar.SkyBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DAE743EA1BABBC2E006F2077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SkyBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SkyBar.SkyBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkyBar.app/SkyBar";
+			};
+			name = Debug;
+		};
+		DAE743EB1BABBC2E006F2077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SkyBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SkyBar.SkyBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkyBar.app/SkyBar";
+			};
+			name = Release;
+		};
+		DAE743ED1BABBC2E006F2077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SkyBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SkyBar.SkyBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SkyBar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DAE743EE1BABBC2E006F2077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SkyBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SkyBar.SkyBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SkyBar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAE743B61BABBC2E006F2077 /* Build configuration list for PBXProject "SkyBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAE743E41BABBC2E006F2077 /* Debug */,
+				DAE743E51BABBC2E006F2077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAE743E61BABBC2E006F2077 /* Build configuration list for PBXNativeTarget "SkyBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAE743E71BABBC2E006F2077 /* Debug */,
+				DAE743E81BABBC2E006F2077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DAE743E91BABBC2E006F2077 /* Build configuration list for PBXNativeTarget "SkyBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAE743EA1BABBC2E006F2077 /* Debug */,
+				DAE743EB1BABBC2E006F2077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DAE743EC1BABBC2E006F2077 /* Build configuration list for PBXNativeTarget "SkyBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAE743ED1BABBC2E006F2077 /* Debug */,
+				DAE743EE1BABBC2E006F2077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DAE743C51BABBC2E006F2077 /* SkyBar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DAE743C61BABBC2E006F2077 /* SkyBar.xcdatamodel */,
+			);
+			currentVersion = DAE743C61BABBC2E006F2077 /* SkyBar.xcdatamodel */;
+			path = SkyBar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DAE743B31BABBC2E006F2077 /* Project object */;
+}
