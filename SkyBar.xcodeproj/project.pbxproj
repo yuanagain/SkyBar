@@ -15,6 +15,9 @@
 		DAE743CC1BABBC2E006F2077 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAE743CA1BABBC2E006F2077 /* LaunchScreen.storyboard */; };
 		DAE743D71BABBC2E006F2077 /* SkyBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE743D61BABBC2E006F2077 /* SkyBarTests.swift */; };
 		DAE743E21BABBC2E006F2077 /* SkyBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE743E11BABBC2E006F2077 /* SkyBarUITests.swift */; };
+		DAE743F31BABBEE1006F2077 /* CollinsGlassView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAE743F21BABBEE1006F2077 /* CollinsGlassView.xib */; settings = {ASSET_TAGS = (); }; };
+		DAE743F61BABBFA8006F2077 /* CollinsGlassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE743F51BABBFA8006F2077 /* CollinsGlassView.swift */; settings = {ASSET_TAGS = (); }; };
+		DAE743F81BABC017006F2077 /* PortionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE743F71BABC017006F2077 /* PortionsViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		DAE743DD1BABBC2E006F2077 /* SkyBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkyBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAE743E11BABBC2E006F2077 /* SkyBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyBarUITests.swift; sourceTree = "<group>"; };
 		DAE743E31BABBC2E006F2077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAE743F21BABBEE1006F2077 /* CollinsGlassView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CollinsGlassView.xib; path = ../CollinsGlassView.xib; sourceTree = "<group>"; };
+		DAE743F51BABBFA8006F2077 /* CollinsGlassView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollinsGlassView.swift; sourceTree = "<group>"; };
+		DAE743F71BABC017006F2077 /* PortionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortionsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +105,9 @@
 		DAE743BD1BABBC2E006F2077 /* SkyBar */ = {
 			isa = PBXGroup;
 			children = (
+				DAE743F41BABBEF2006F2077 /* Views */,
 				DAE743BE1BABBC2E006F2077 /* AppDelegate.swift */,
-				DAE743C01BABBC2E006F2077 /* ViewController.swift */,
+				DAE743EF1BABBD05006F2077 /* View Controllers */,
 				DAE743C21BABBC2E006F2077 /* Main.storyboard */,
 				DAE743C81BABBC2E006F2077 /* Assets.xcassets */,
 				DAE743CA1BABBC2E006F2077 /* LaunchScreen.storyboard */,
@@ -126,6 +133,24 @@
 				DAE743E31BABBC2E006F2077 /* Info.plist */,
 			);
 			path = SkyBarUITests;
+			sourceTree = "<group>";
+		};
+		DAE743EF1BABBD05006F2077 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DAE743C01BABBC2E006F2077 /* ViewController.swift */,
+				DAE743F71BABC017006F2077 /* PortionsViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		DAE743F41BABBEF2006F2077 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DAE743F21BABBEE1006F2077 /* CollinsGlassView.xib */,
+				DAE743F51BABBFA8006F2077 /* CollinsGlassView.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +258,7 @@
 			files = (
 				DAE743CC1BABBC2E006F2077 /* LaunchScreen.storyboard in Resources */,
 				DAE743C91BABBC2E006F2077 /* Assets.xcassets in Resources */,
+				DAE743F31BABBEE1006F2077 /* CollinsGlassView.xib in Resources */,
 				DAE743C41BABBC2E006F2077 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +286,8 @@
 			files = (
 				DAE743C11BABBC2E006F2077 /* ViewController.swift in Sources */,
 				DAE743BF1BABBC2E006F2077 /* AppDelegate.swift in Sources */,
+				DAE743F61BABBFA8006F2077 /* CollinsGlassView.swift in Sources */,
+				DAE743F81BABC017006F2077 /* PortionsViewController.swift in Sources */,
 				DAE743C71BABBC2E006F2077 /* SkyBar.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
